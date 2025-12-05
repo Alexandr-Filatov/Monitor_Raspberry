@@ -76,8 +76,8 @@
 		(uuid 1a92ed62-1c49-467c-afae-7eb9dbd54955)
 	)
 	(rectangle
-		(start 82.55 238.252)
-		(end 92.71 243.332)
+		(start 146.304 247.904)
+		(end 156.464 252.984)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -110,6 +110,18 @@
 			(type none)
 		)
 		(uuid 2b844cdb-db21-4a6f-8609-501bd3c16dff)
+	)
+	(rectangle
+		(start 123.19 238.252)
+		(end 133.35 243.332)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 30ee3eb7-f348-4bca-a419-77eff444403a)
 	)
 	(rectangle
 		(start 31.75 72.39)
@@ -149,6 +161,18 @@
 		(uuid 5ed9d5e8-613c-4e66-b4f4-016178cfb2d1)
 	)
 	(rectangle
+		(start 136.144 247.904)
+		(end 146.304 252.984)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 64a0cadd-8415-450c-8563-cefbd042f066)
+	)
+	(rectangle
 		(start 208.28 143.764)
 		(end 187.96 151.384)
 		(stroke
@@ -186,7 +210,7 @@
 		(uuid 6ea861cb-cb09-4d88-8038-e863ffa3429d)
 	)
 	(rectangle
-		(start 247.904 152.4)
+		(start 247.904 161.544)
 		(end 288.544 228.6)
 		(stroke
 			(width 1)
@@ -224,8 +248,8 @@
 		(uuid 7f4c5d4c-8974-4cc4-bb6c-31e689d2ba7f)
 	)
 	(rectangle
-		(start 82.55 222.758)
-		(end 128.27 256.032)
+		(start 146.304 232.664)
+		(end 192.024 256.032)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -298,6 +322,19 @@
 		(uuid ddbb6e28-d4ee-4c00-83a2-380f8c811341)
 	)
 	(rectangle
+		(start 123.19 214.63)
+		(end 192.024 256.032)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid e11f6b2a-a3e7-41eb-aade-480d465c8ca8)
+	)
+	(rectangle
 		(start 72.39 96.52)
 		(end 82.55 200.66)
 		(stroke
@@ -321,7 +358,7 @@
 	)
 	(text "1  Для внутренних электрических соединений использовать провод ММП (АМП)-H50-0.35."
 		(exclude_from_sim no)
-		(at 231.394 133.096 0)
+		(at 231.14 149.86 0)
 		(effects
 			(font
 				(size 3.5 3.5)
@@ -370,6 +407,16 @@
 		)
 		(uuid "41cfd1f4-d56b-42a1-bef5-a363df75cff8")
 	)
+	(text "А6.6"
+		(exclude_from_sim no)
+		(at 198.374 218.44 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "52b096f8-2b6f-47fc-93b9-2de0f5de93d2")
+	)
 	(text "A6.5-X1\n"
 		(exclude_from_sim no)
 		(at 242.824 171.196 0)
@@ -412,7 +459,7 @@
 	)
 	(text "А6.5"
 		(exclude_from_sim no)
-		(at 252.984 148.082 0)
+		(at 252.73 158.496 0)
 		(effects
 			(font
 				(size 5 5)
@@ -430,9 +477,9 @@
 		)
 		(uuid "8b978118-efb5-4d31-85c8-f60a9c9e423f")
 	)
-	(text "А6.6"
+	(text "А6.7"
 		(exclude_from_sim no)
-		(at 122.936 219.202 0)
+		(at 186.436 229.87 0)
 		(effects
 			(font
 				(size 5 5)
@@ -480,6 +527,16 @@
 		)
 		(uuid "aefb0286-1dc7-4104-b33b-697325d69978")
 	)
+	(text "Слот М.2"
+		(exclude_from_sim no)
+		(at 140.97 246.126 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+		)
+		(uuid "b46742f8-cdf7-4273-b0b4-4ca79cc38b82")
+	)
 	(text "А6.2"
 		(exclude_from_sim no)
 		(at 87.122 83.566 0)
@@ -492,17 +549,7 @@
 	)
 	(text "Слот М.2"
 		(exclude_from_sim no)
-		(at 77.47 236.474 0)
-		(effects
-			(font
-				(size 1.8 1.8)
-			)
-		)
-		(uuid "bae3db23-3b7b-4ffb-b378-1679db5e6b5b")
-	)
-	(text "Слот М.2"
-		(exclude_from_sim no)
-		(at 87.63 236.474 0)
+		(at 151.384 246.126 0)
 		(effects
 			(font
 				(size 1.8 1.8)
@@ -637,7 +684,7 @@
 		)
 		(uuid "02d1d542-9c8e-49f5-bd25-d3ba52dc83db")
 	)
-	(text_box "Накопитель Patriot P300 128 Гб"
+	(text_box "Переходной адаптер х1002"
 		(exclude_from_sim no)
 		(at 253.492 66.04 0)
 		(size 109.22 7.62)
@@ -712,6 +759,25 @@
 			)
 		)
 		(uuid "0471b4c2-ed0b-4517-a8e6-8b99a5b920dc")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 372.872 73.66 0)
+		(size 41.91 7.62)
+		(margins 1.75 1.75 1.75 1.75)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "0674ec8a-d8a4-4ed4-8dc7-b332b3781b3f")
 	)
 	(text_box "Цепь"
 		(exclude_from_sim no)
@@ -829,7 +895,7 @@
 	)
 	(text_box "А6.4-J2"
 		(exclude_from_sim no)
-		(at 231.394 81.28 0)
+		(at 231.394 88.9 0)
 		(size 22.098 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -1076,6 +1142,25 @@
 		)
 		(uuid "1cb0141f-feba-4fdf-b61c-1ba352b9fa88")
 	)
+	(text_box "SSD"
+		(exclude_from_sim no)
+		(at 123.19 240.792 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+		)
+		(uuid "1d4930cf-0f83-493a-9f78-e7b748a5f291")
+	)
 	(text_box "GND"
 		(exclude_from_sim no)
 		(at 72.39 132.08 0)
@@ -1231,7 +1316,7 @@
 	)
 	(text_box "А6.4-J1"
 		(exclude_from_sim no)
-		(at 231.394 73.66 0)
+		(at 231.394 81.28 0)
 		(size 22.098 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -1308,7 +1393,7 @@
 	)
 	(text_box "1\n"
 		(exclude_from_sim no)
-		(at 362.712 104.14 0)
+		(at 362.712 111.76 0)
 		(size 10.16 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -1441,7 +1526,7 @@
 	)
 	(text_box "1\n"
 		(exclude_from_sim no)
-		(at 362.712 119.38 0)
+		(at 362.712 127 0)
 		(size 10.16 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -1668,9 +1753,28 @@
 		)
 		(uuid "3e2d1e6b-7ccb-49df-a5d6-60c951d59007")
 	)
+	(text_box "Накопитель Patriot P300 128 Гб"
+		(exclude_from_sim no)
+		(at 253.492 73.66 0)
+		(size 109.22 7.62)
+		(margins 1.75 1.75 1.75 1.75)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "3ecc92ae-3242-4784-b42b-e51812bbb8a8")
+	)
 	(text_box "Цепь"
 		(exclude_from_sim no)
-		(at 82.55 238.252 0)
+		(at 146.304 247.904 0)
 		(size 10.16 2.54)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1689,7 +1793,7 @@
 	)
 	(text_box "Контакт KLS1-4.20-FT"
 		(exclude_from_sim no)
-		(at 372.872 73.66 0)
+		(at 372.872 81.28 0)
 		(size 41.91 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -1708,7 +1812,7 @@
 	)
 	(text_box "Штекер на кабель PL2313, 5.5x2.1мм"
 		(exclude_from_sim no)
-		(at 253.492 104.14 0)
+		(at 253.492 111.76 0)
 		(size 109.22 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -1724,6 +1828,25 @@
 			)
 		)
 		(uuid "433a6d94-4648-4756-ab25-4aa245c39f51")
+	)
+	(text_box "1\n"
+		(exclude_from_sim no)
+		(at 362.712 73.66 0)
+		(size 10.16 7.62)
+		(margins 1.75 1.75 1.75 1.75)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "438b52c5-4c28-434c-b034-fd0a52409ac8")
 	)
 	(text_box "2"
 		(exclude_from_sim no)
@@ -1861,7 +1984,7 @@
 	)
 	(text_box "1\n"
 		(exclude_from_sim no)
-		(at 362.712 81.28 0)
+		(at 362.712 88.9 0)
 		(size 10.16 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -1956,7 +2079,7 @@
 	)
 	(text_box "А6.4-J4"
 		(exclude_from_sim no)
-		(at 231.394 96.52 0)
+		(at 231.394 104.14 0)
 		(size 22.098 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -1975,7 +2098,7 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 372.872 119.38 0)
+		(at 372.872 127 0)
 		(size 41.91 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -2203,7 +2326,7 @@
 	)
 	(text_box "Контакт KLS1-4.20-FT"
 		(exclude_from_sim no)
-		(at 372.872 81.28 0)
+		(at 372.872 88.9 0)
 		(size 41.91 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -2238,6 +2361,25 @@
 			)
 		)
 		(uuid "61d41aee-2d21-4042-8a0b-233e21724ee3")
+	)
+	(text_box "Шлейф PCIe FFC"
+		(exclude_from_sim no)
+		(at 253.492 134.62 0)
+		(size 109.22 7.62)
+		(margins 1.75 1.75 1.75 1.75)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "61f03085-683a-4eda-93aa-701e497339bb")
 	)
 	(text_box "Дисплей"
 		(exclude_from_sim no)
@@ -2355,7 +2497,7 @@
 	)
 	(text_box "Контакт KLS1-4.20-FT"
 		(exclude_from_sim no)
-		(at 372.872 88.9 0)
+		(at 372.872 96.52 0)
 		(size 41.91 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -2393,7 +2535,7 @@
 	)
 	(text_box "SSD"
 		(exclude_from_sim no)
-		(at 82.55 240.792 0)
+		(at 146.304 250.444 0)
 		(size 10.16 2.54)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2450,7 +2592,7 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 372.872 104.14 0)
+		(at 372.872 111.76 0)
 		(size 41.91 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -2507,7 +2649,7 @@
 	)
 	(text_box "Контакт KLS1-4.20-FT"
 		(exclude_from_sim no)
-		(at 372.872 96.52 0)
+		(at 372.872 104.14 0)
 		(size 41.91 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -2619,6 +2761,25 @@
 		)
 		(uuid "7ec5e01d-6ae2-46fd-9256-4c5583115ef4")
 	)
+	(text_box "Переходной адаптер х1002"
+		(exclude_from_sim no)
+		(at 123.19 214.63 0)
+		(size 68.834 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "7f6008b7-5250-40e5-9003-44c0f3554c72")
+	)
 	(text_box "CANH"
 		(exclude_from_sim no)
 		(at 209.55 190.5 0)
@@ -2640,7 +2801,7 @@
 	)
 	(text_box "1\n"
 		(exclude_from_sim no)
-		(at 362.712 88.9 0)
+		(at 362.712 96.52 0)
 		(size 10.16 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -2656,6 +2817,25 @@
 			)
 		)
 		(uuid "7fd69ac3-8765-49de-91e8-1d9e6ec24b0d")
+	)
+	(text_box "2"
+		(exclude_from_sim no)
+		(at 231.394 134.62 0)
+		(size 22.098 7.62)
+		(margins 1.75 1.75 1.75 1.75)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "821508be-a7fc-48fa-ab5d-cc648c482b72")
 	)
 	(text_box ""
 		(exclude_from_sim no)
@@ -2752,6 +2932,25 @@
 		)
 		(uuid "856cf3de-e672-4018-9acc-5531b81f57a1")
 	)
+	(text_box "Цепь"
+		(exclude_from_sim no)
+		(at 136.144 247.904 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+		)
+		(uuid "87109bac-b726-4e9e-baa1-c2ed692430e5")
+	)
 	(text_box ""
 		(exclude_from_sim no)
 		(at 82.55 180.34 0)
@@ -2770,6 +2969,25 @@
 			)
 		)
 		(uuid "880a5f13-3eb6-4020-a6af-060a0353d888")
+	)
+	(text_box "Цепь"
+		(exclude_from_sim no)
+		(at 123.19 238.252 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+		)
+		(uuid "8d713ec8-ec25-435b-8f40-3c483a1a06f8")
 	)
 	(text_box "GND"
 		(exclude_from_sim no)
@@ -2925,6 +3143,25 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
+		(at 372.872 134.62 0)
+		(size 41.91 7.62)
+		(margins 1.75 1.75 1.75 1.75)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "96ef18ac-0531-46f2-86bb-32c8558ac037")
+	)
+	(text_box ""
+		(exclude_from_sim no)
 		(at 372.872 27.94 0)
 		(size 41.91 7.62)
 		(margins 1.75 1.75 1.75 1.75)
@@ -3077,7 +3314,7 @@
 	)
 	(text_box "1\n"
 		(exclude_from_sim no)
-		(at 362.712 111.76 0)
+		(at 362.712 119.38 0)
 		(size 10.16 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -3230,7 +3467,7 @@
 	)
 	(text_box "А6.5-X1"
 		(exclude_from_sim no)
-		(at 231.394 104.14 0)
+		(at 231.394 111.76 0)
 		(size 22.098 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -3249,7 +3486,7 @@
 	)
 	(text_box "Patriot P300"
 		(exclude_from_sim no)
-		(at 82.55 222.758 0)
+		(at 146.304 232.664 0)
 		(size 45.72 6.35)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3323,6 +3560,25 @@
 		)
 		(uuid "aff15c28-11dd-4f8b-ade6-bc6d45168519")
 	)
+	(text_box "А6.7"
+		(exclude_from_sim no)
+		(at 231.394 73.66 0)
+		(size 22.098 7.62)
+		(margins 1.75 1.75 1.75 1.75)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "b0d6790f-4ec5-42a6-aa92-c5b29feb099d")
+	)
 	(text_box ""
 		(exclude_from_sim no)
 		(at 72.39 137.16 0)
@@ -3344,7 +3600,7 @@
 	)
 	(text_box "Розетка FQ24-8PIN ZK"
 		(exclude_from_sim no)
-		(at 253.492 111.76 0)
+		(at 253.492 119.38 0)
 		(size 109.22 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -3554,7 +3810,7 @@
 	)
 	(text_box "Кабель HDMI - microHDMI, 0.2м"
 		(exclude_from_sim no)
-		(at 253.492 119.38 0)
+		(at 253.492 127 0)
 		(size 109.22 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -3571,9 +3827,28 @@
 		)
 		(uuid "c0f8d5a3-2305-47ab-9e64-b17bed34a232")
 	)
+	(text_box "1\n"
+		(exclude_from_sim no)
+		(at 362.712 134.62 0)
+		(size 10.16 7.62)
+		(margins 1.75 1.75 1.75 1.75)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "c2ad61e9-48de-4105-8126-7973458a477e")
+	)
 	(text_box "Розетка на кабель KLS1-4.20-2x01-MH"
 		(exclude_from_sim no)
-		(at 253.492 88.9 0)
+		(at 253.492 96.52 0)
 		(size 109.22 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -3612,7 +3887,7 @@
 	)
 	(text_box "Розетка на кабель KLS1-4.20-2x01-MH"
 		(exclude_from_sim no)
-		(at 253.492 96.52 0)
+		(at 253.492 104.14 0)
 		(size 109.22 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -3631,7 +3906,7 @@
 	)
 	(text_box "1"
 		(exclude_from_sim no)
-		(at 231.394 119.38 0)
+		(at 231.394 127 0)
 		(size 22.098 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -3650,7 +3925,7 @@
 	)
 	(text_box "А6-X1"
 		(exclude_from_sim no)
-		(at 231.394 111.76 0)
+		(at 231.394 119.38 0)
 		(size 22.098 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -3708,7 +3983,7 @@
 	)
 	(text_box "А6.4-J3"
 		(exclude_from_sim no)
-		(at 231.394 88.9 0)
+		(at 231.394 96.52 0)
 		(size 22.098 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -3727,7 +4002,7 @@
 	)
 	(text_box "1\n"
 		(exclude_from_sim no)
-		(at 362.712 96.52 0)
+		(at 362.712 104.14 0)
 		(size 10.16 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -3803,7 +4078,7 @@
 	)
 	(text_box "1\n"
 		(exclude_from_sim no)
-		(at 362.712 73.66 0)
+		(at 362.712 81.28 0)
 		(size 10.16 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -3841,7 +4116,7 @@
 	)
 	(text_box "Розетка на кабель KLS1-4.20-2x01-MH"
 		(exclude_from_sim no)
-		(at 253.492 73.66 0)
+		(at 253.492 81.28 0)
 		(size 109.22 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -4088,6 +4363,25 @@
 		)
 		(uuid "e4ca09b3-f31b-496c-ba25-597f34600058")
 	)
+	(text_box "SSD"
+		(exclude_from_sim no)
+		(at 136.144 250.444 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+		)
+		(uuid "e54cf3ac-6fb5-4613-a44a-52003d02b27b")
+	)
 	(text_box "Цепь"
 		(exclude_from_sim no)
 		(at 247.904 213.106 0)
@@ -4128,7 +4422,7 @@
 	)
 	(text_box "Дисплей"
 		(exclude_from_sim no)
-		(at 247.904 152.4 0)
+		(at 247.904 161.798 0)
 		(size 40.64 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -4166,7 +4460,7 @@
 	)
 	(text_box "Розетка на кабель KLS1-4.20-2x01-MH"
 		(exclude_from_sim no)
-		(at 253.492 81.28 0)
+		(at 253.492 88.9 0)
 		(size 109.22 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -4185,7 +4479,7 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 372.872 111.76 0)
+		(at 372.872 119.38 0)
 		(size 41.91 7.62)
 		(margins 1.75 1.75 1.75 1.75)
 		(stroke
@@ -4930,6 +5224,16 @@
 		)
 		(uuid "e1c561fc-d6f3-4d76-8162-eaad97756440")
 	)
+	(bus
+		(pts
+			(xy 82.55 242.57) (xy 123.19 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e680ee91-b22f-4dd1-a08e-a7ed7f2af47b")
+	)
 	(wire
 		(pts
 			(xy 201.93 179.07) (xy 210.82 179.07)
@@ -4994,6 +5298,16 @@
 			(justify left bottom)
 		)
 		(uuid "872a512c-3fbf-4488-89a8-e42b62d21f0d")
+	)
+	(label "2"
+		(at 104.14 242.57 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae55047e-edd8-406b-8683-dc2f4a22c3a0")
 	)
 	(sheet_instances
 		(path "/"
